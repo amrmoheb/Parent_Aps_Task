@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "644d712b6b9b6ae08ae5da5d3201d21e"
+build_time: [1595258008, 311666000]
+inputs:
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/UIExtensions/HideKeyboard.swift": [1595251096, 479061252]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/ViewController.swift": [1595005847, 996123891]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/WeatherForecastingSearchVC.swift": [1595252641, 719511035]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/AppDelegate.swift": [1595005847, 987478253]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/CityForecastingVC.swift": [1595257993, 812214215]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/Model/Models/DefaultCitynameResponseModel.swift": [1595239859, 727259531]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/Model/State.swift": [1595112335, 556479165]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/Model/Models/WeatherForeCastingResponse.swift": [1595104321, 374453901]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/ViewModel/CityForcastingCellViewModel.swift": [1595120465, 472051666]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/CityForecasting+TableView.swift": [1595121675, 323489591]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/Cells/CityCell.swift": [1595172154, 223905408]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/SceneDelegate.swift": [1595005847, 992910289]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/ViewModel/CityForecastingViewModel.swift": [1595245654, 351124809]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/WeatherForeCastingSearchVC+TableView.swift": [1595172996, 366762354]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/Model/NetworkLayer.swift": [1595174035, 285553244]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/SearchInteractor.swift": [1595257096, 96731956]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/Model/NetworkRouter.swift": [1595239615, 231149901]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/ViewModel/WeatherForeCastingViewModel.swift": [1595257718, 98401262]
+  "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/Parent_Aps_Task/View/Cells/CityForecastingCell.swift": [1595119996, 120389878]

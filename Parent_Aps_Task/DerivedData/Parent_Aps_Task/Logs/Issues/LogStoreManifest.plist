@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3E4386FB-4CDC-41D4-BDBD-99C1EE15DB6D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>3E4386FB-4CDC-41D4-BDBD-99C1EE15DB6D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Parent_Aps_Task-cnmzqkdqijownebdeeogkkmfelxo</string>
+			<key>timeStartedRecording</key>
+			<real>616950810.18907106</real>
+			<key>timeStoppedRecording</key>
+			<real>616950814.85179496</real>
+			<key>title</key>
+			<string>Build target Parent_Aps_Task</string>
+			<key>uniqueIdentifier</key>
+			<string>3E4386FB-4CDC-41D4-BDBD-99C1EE15DB6D</string>
+		</dict>
+		<key>8434224C-51F7-499B-8E78-AE622DB1E35C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>8434224C-51F7-499B-8E78-AE622DB1E35C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-Parent_Aps_Task-aaziqzfaieologgnodltrscvzmdj</string>
+			<key>timeStartedRecording</key>
+			<real>616867123.738253</real>
+			<key>timeStoppedRecording</key>
+			<real>616867123.74342299</real>
+			<key>title</key>
+			<string>Build target Pods-Parent_Aps_Task</string>
+			<key>uniqueIdentifier</key>
+			<string>8434224C-51F7-499B-8E78-AE622DB1E35C</string>
+		</dict>
+		<key>F1FC0D0A-B55E-4840-8169-CDE0C99A0196</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>F1FC0D0A-B55E-4840-8169-CDE0C99A0196.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Alamofire-aaziqzfaieologgnodltrscvzmdj</string>
+			<key>timeStartedRecording</key>
+			<real>616867123.71794295</real>
+			<key>timeStoppedRecording</key>
+			<real>616867123.73744798</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>F1FC0D0A-B55E-4840-8169-CDE0C99A0196</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

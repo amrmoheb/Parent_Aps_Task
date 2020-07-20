@@ -1,0 +1,396 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CityForecastingCell"
+provides-nominal:
+- "15Parent_Aps_Task19CityForecastingCellC"
+provides-member:
+- ["15Parent_Aps_Task19CityForecastingCellC", ""]
+provides-dynamic-lookup:
+- "Date"
+- "Sky"
+- "Tempreature"
+- "Time"
+- "awakeFromNib"
+- "setSelected"
+- "viewModel"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CityForcastingCellViewModel"
+- "CityForecastingCell"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- !private ["So15CALayerDelegateP", "Date"]
+- !private ["So15CALayerDelegateP", "Sky"]
+- !private ["So15CALayerDelegateP", "Tempreature"]
+- !private ["So15CALayerDelegateP", "Time"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "viewModel"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "Sky"]
+- !private ["s7CVarArgP", "Tempreature"]
+- !private ["s7CVarArgP", "Time"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewModel"]
+- !private ["15Parent_Aps_Task27CityForcastingCellViewModelV", "Date"]
+- !private ["15Parent_Aps_Task27CityForcastingCellViewModelV", "Sky"]
+- !private ["15Parent_Aps_Task27CityForcastingCellViewModelV", "Tempreature"]
+- !private ["15Parent_Aps_Task27CityForcastingCellViewModelV", "Time"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "Bool"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "CityForcastingCellViewModel"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "Date"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "Sky"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "Tempreature"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "Time"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "UILabel"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "awakeFromNib"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "deinit"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "init"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "setSelected"]
+- ["15Parent_Aps_Task19CityForecastingCellC", "viewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Sky"]
+- !private ["s28CustomDebugStringConvertibleP", "Tempreature"]
+- !private ["s28CustomDebugStringConvertibleP", "Time"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewModel"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Sky"]
+- !private ["s23CustomStringConvertibleP", "Tempreature"]
+- !private ["s23CustomStringConvertibleP", "Time"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewModel"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Sky"]
+- !private ["SQ", "Tempreature"]
+- !private ["SQ", "Time"]
+- ["SQ", ""]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewModel"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "Date"]
+- !private ["SH", "Sky"]
+- !private ["SH", "Tempreature"]
+- !private ["SH", "Time"]
+- ["SH", ""]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "text"]
+- !private ["SH", "viewModel"]
+- !private ["So8NSCodingP", "Date"]
+- !private ["So8NSCodingP", "Sky"]
+- !private ["So8NSCodingP", "Tempreature"]
+- !private ["So8NSCodingP", "Time"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewModel"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CityForcastingCellViewModel"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Sky"]
+- ["So8NSObjectC", "Tempreature"]
+- ["So8NSObjectC", "Time"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewModel"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "Sky"]
+- !private ["So8NSObjectP", "Tempreature"]
+- !private ["So8NSObjectP", "Time"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewModel"]
+- !private ["Sq", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "Date"]
+- !private ["So29UIAccessibilityIdentificationP", "Sky"]
+- !private ["So29UIAccessibilityIdentificationP", "Tempreature"]
+- !private ["So29UIAccessibilityIdentificationP", "Time"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "viewModel"]
+- !private ["So12UIAppearanceP", "Date"]
+- !private ["So12UIAppearanceP", "Sky"]
+- !private ["So12UIAppearanceP", "Tempreature"]
+- !private ["So12UIAppearanceP", "Time"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "viewModel"]
+- !private ["So21UIAppearanceContainerP", "Date"]
+- !private ["So21UIAppearanceContainerP", "Sky"]
+- !private ["So21UIAppearanceContainerP", "Tempreature"]
+- !private ["So21UIAppearanceContainerP", "Time"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewModel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "Date"]
+- !private ["So17UICoordinateSpaceP", "Sky"]
+- !private ["So17UICoordinateSpaceP", "Tempreature"]
+- !private ["So17UICoordinateSpaceP", "Time"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "viewModel"]
+- !private ["So13UIDynamicItemP", "Date"]
+- !private ["So13UIDynamicItemP", "Sky"]
+- !private ["So13UIDynamicItemP", "Tempreature"]
+- !private ["So13UIDynamicItemP", "Time"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "viewModel"]
+- !private ["So18UIFocusEnvironmentP", "Date"]
+- !private ["So18UIFocusEnvironmentP", "Sky"]
+- !private ["So18UIFocusEnvironmentP", "Tempreature"]
+- !private ["So18UIFocusEnvironmentP", "Time"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewModel"]
+- !private ["So11UIFocusItemP", "Date"]
+- !private ["So11UIFocusItemP", "Sky"]
+- !private ["So11UIFocusItemP", "Tempreature"]
+- !private ["So11UIFocusItemP", "Time"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "viewModel"]
+- !private ["So20UIFocusItemContainerP", "Date"]
+- !private ["So20UIFocusItemContainerP", "Sky"]
+- !private ["So20UIFocusItemContainerP", "Tempreature"]
+- !private ["So20UIFocusItemContainerP", "Time"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "viewModel"]
+- !private ["So27UIGestureRecognizerDelegateP", "Date"]
+- !private ["So27UIGestureRecognizerDelegateP", "Sky"]
+- !private ["So27UIGestureRecognizerDelegateP", "Tempreature"]
+- !private ["So27UIGestureRecognizerDelegateP", "Time"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "viewModel"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "Date"]
+- !private ["So24UILargeContentViewerItemP", "Sky"]
+- !private ["So24UILargeContentViewerItemP", "Tempreature"]
+- !private ["So24UILargeContentViewerItemP", "Time"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "setSelected"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So24UILargeContentViewerItemP", "viewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "Date"]
+- !private ["So30UIPasteConfigurationSupportingP", "Sky"]
+- !private ["So30UIPasteConfigurationSupportingP", "Tempreature"]
+- !private ["So30UIPasteConfigurationSupportingP", "Time"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewModel"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CityForcastingCellViewModel"]
+- ["So11UIResponderC", "Date"]
+- ["So11UIResponderC", "Sky"]
+- ["So11UIResponderC", "Tempreature"]
+- ["So11UIResponderC", "Time"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "Date"]
+- !private ["So30UIResponderStandardEditActionsP", "Sky"]
+- !private ["So30UIResponderStandardEditActionsP", "Tempreature"]
+- !private ["So30UIResponderStandardEditActionsP", "Time"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewModel"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "CityForcastingCellViewModel"]
+- ["So15UITableViewCellC", "Date"]
+- ["So15UITableViewCellC", "Sky"]
+- ["So15UITableViewCellC", "Tempreature"]
+- ["So15UITableViewCellC", "Time"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", "viewModel"]
+- !private ["So18UITraitEnvironmentP", "Date"]
+- !private ["So18UITraitEnvironmentP", "Sky"]
+- !private ["So18UITraitEnvironmentP", "Tempreature"]
+- !private ["So18UITraitEnvironmentP", "Time"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewModel"]
+- !private ["So23UIUserActivityRestoringP", "Date"]
+- !private ["So23UIUserActivityRestoringP", "Sky"]
+- !private ["So23UIUserActivityRestoringP", "Tempreature"]
+- !private ["So23UIUserActivityRestoringP", "Time"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewModel"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CityForcastingCellViewModel"]
+- ["So6UIViewC", "Date"]
+- ["So6UIViewC", "Sky"]
+- ["So6UIViewC", "Tempreature"]
+- ["So6UIViewC", "Time"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "setSelected"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "viewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Sky"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Tempreature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Time"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Sky"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Tempreature"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Time"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSelected"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewModel"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Date"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Sky"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Tempreature"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Time"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "viewModel"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "15Parent_Aps_Task27CityForcastingCellViewModelV"
+- "15Parent_Aps_Task19CityForecastingCellC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9ca54970a4b926eaa6a978b05e8550b4"
