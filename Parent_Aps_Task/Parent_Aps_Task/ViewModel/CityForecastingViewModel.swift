@@ -62,24 +62,24 @@ class CityForecastingViewModel {
     func GetTime(str : String) -> String {
         
           let dateFormatter = DateFormatter()
-          let tempLocale = dateFormatter.locale // save locale temporarily
-          dateFormatter.locale = Locale(identifier: "en_US_POSIX") // set locale to reliable US_POSIX
+          let tempLocale = dateFormatter.locale
+          dateFormatter.locale = Locale(identifier: "en_US_POSIX")
           dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
           let date = dateFormatter.date(from: str)!
           dateFormatter.dateFormat = "HH:mm:ss"
-           dateFormatter.locale = tempLocale // reset the locale
+           dateFormatter.locale = tempLocale
           let timeStr = dateFormatter.string(from: date)
         return timeStr
     }
     func GetDate(str : String) -> String {
           
             let dateFormatter = DateFormatter()
-            let tempLocale = dateFormatter.locale // save locale temporarily
-            dateFormatter.locale = Locale(identifier: "en_US_POSIX") // set locale to reliable US_POSIX
+            let tempLocale = dateFormatter.locale
+            dateFormatter.locale = Locale(identifier: "en_US_POSIX")
             dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
             let date = dateFormatter.date(from: str)!
             dateFormatter.dateFormat = "yyyy-MM-dd"
-             dateFormatter.locale = tempLocale // reset the locale
+             dateFormatter.locale = tempLocale 
             let timeStr = dateFormatter.string(from: date)
           return timeStr
       }

@@ -187,6 +187,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import CoreLocation;
 @import Foundation;
 @import UIKit;
 #endif
@@ -252,6 +253,7 @@ SWIFT_CLASS("_TtC15Parent_Aps_Task19CityForecastingCell")
 
 SWIFT_CLASS("_TtC15Parent_Aps_Task17CityForecastingVC")
 @interface CityForecastingVC : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified CityNameLabel;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified CityForecastingTable;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -280,6 +282,11 @@ SWIFT_CLASS("_TtC15Parent_Aps_Task13SceneDelegate")
 @end
 
 
+@interface UIViewController (SWIFT_EXTENSION(Parent_Aps_Task))
+- (void)dismissKeyboard;
+@end
+
+
 SWIFT_CLASS("_TtC15Parent_Aps_Task14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
@@ -290,15 +297,19 @@ SWIFT_CLASS("_TtC15Parent_Aps_Task14ViewController")
 @class UIView;
 @class UISearchBar;
 @class NSLayoutConstraint;
+@class CLLocationManager;
+@class CLLocation;
 
 SWIFT_CLASS("_TtC15Parent_Aps_Task26WeatherForecastingSearchVC")
-@interface WeatherForecastingSearchVC : UIViewController <UISearchBarDelegate>
+@interface WeatherForecastingSearchVC : UIViewController <CLLocationManagerDelegate, UISearchBarDelegate>
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified MainActivityView;
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified SearchBar;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified MainActivityViewHight;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified CityTable;
 - (void)viewDidLoad;
 - (void)MainActivityOnClickWithSender:(UIButton * _Null_unspecified)sender;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

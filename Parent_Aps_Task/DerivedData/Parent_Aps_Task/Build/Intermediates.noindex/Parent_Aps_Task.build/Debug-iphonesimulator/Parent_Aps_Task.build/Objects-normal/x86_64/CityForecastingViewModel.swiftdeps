@@ -6,19 +6,26 @@ provides-nominal:
 provides-member:
 - ["15Parent_Aps_Task24CityForecastingViewModelC", ""]
 provides-dynamic-lookup:
+- "CityName"
 - "CitySearchResult"
 - "FillForecastingElments"
 - "ForcastingElements"
+- "GetDate"
 - "GetForecastingCellViewModel"
+- "GetTime"
 - "ReloadForecatingTable"
 - "numberOfForcasting"
 depends-top-level:
 - !private "??"
+- "AssignmentPrecedence"
 - "CityForcastingCellViewModel"
 - "CityForecastingViewModel"
+- !private "DateFormatter"
 - !private "FloatLiteralType"
 - "Int"
 - !private "IntegerLiteralType"
+- !private "Locale"
+- "String"
 - !private "StringLiteralType"
 - "WeatherForeCastingResponse"
 depends-member:
@@ -36,16 +43,26 @@ depends-member:
 - !private ["SK", "subscript"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["15Parent_Aps_Task27CityForcastingCellViewModelV", "init"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "CityForcastingCellViewModel"]
+- ["15Parent_Aps_Task24CityForecastingViewModelC", "CityName"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "CitySearchResult"]
+- !private ["15Parent_Aps_Task24CityForecastingViewModelC", "DateFormatter"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "FillForecastingElments"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "ForcastingElements"]
+- ["15Parent_Aps_Task24CityForecastingViewModelC", "GetDate"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "GetForecastingCellViewModel"]
+- ["15Parent_Aps_Task24CityForecastingViewModelC", "GetTime"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "Int"]
+- !private ["15Parent_Aps_Task24CityForecastingViewModelC", "Locale"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "ReloadForecatingTable"]
+- ["15Parent_Aps_Task24CityForecastingViewModelC", "String"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "WeatherForeCastingResponse"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "deinit"]
 - ["15Parent_Aps_Task24CityForecastingViewModelC", "init"]
@@ -60,7 +77,11 @@ depends-member:
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "count"]
@@ -70,17 +91,27 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "count"]
 - ["10Foundation12DataProtocolP", "init"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
 - !private ["15Parent_Aps_Task5DatumV", "app_temp"]
 - !private ["15Parent_Aps_Task5DatumV", "timestamp_utc"]
 - !private ["15Parent_Aps_Task5DatumV", "weather"]
 - !private ["Se", "app_temp"]
 - !private ["Se", "append"]
+- !private ["Se", "city_name"]
 - !private ["Se", "count"]
 - !private ["Se", "data"]
 - !private ["Se", "description"]
@@ -96,16 +127,30 @@ depends-member:
 - !private ["SE", "subscript"]
 - !private ["SQ", "append"]
 - !private ["SQ", "count"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateFormat"]
 - ["SQ", "init"]
+- !private ["SQ", "locale"]
+- !private ["SQ", "string"]
 - !private ["SQ", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
 - !private ["SH", "append"]
 - !private ["SH", "count"]
+- !private ["SH", "date"]
+- !private ["SH", "dateFormat"]
 - ["SH", "init"]
+- !private ["SH", "locale"]
+- !private ["SH", "string"]
 - !private ["SH", "subscript"]
+- !private ["10Foundation6LocaleV", "init"]
 - !private ["SM", "append"]
 - !private ["SM", "count"]
 - ["SM", "init"]
@@ -114,6 +159,26 @@ depends-member:
 - !private ["10Foundation19MutableDataProtocolP", "count"]
 - ["10Foundation19MutableDataProtocolP", "init"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "string"]
 - !private ["Sk", "append"]
 - !private ["Sk", "count"]
 - ["Sk", "init"]
@@ -122,6 +187,7 @@ depends-member:
 - !private ["Sm", "count"]
 - ["Sm", "init"]
 - !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["ST", "append"]
 - !private ["ST", "count"]
 - ["ST", "init"]
@@ -131,6 +197,7 @@ depends-member:
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["15Parent_Aps_Task7WeatherV", "description"]
+- !private ["15Parent_Aps_Task26WeatherForeCastingResponseV", "city_name"]
 - !private ["15Parent_Aps_Task26WeatherForeCastingResponseV", "data"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "count"]
@@ -148,6 +215,16 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - ["s21_ObjectiveCBridgeableP", "init"]
@@ -165,17 +242,25 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "10Foundation12DataProtocolP"
+- !private "So15NSDateFormatterC"
 - !private "15Parent_Aps_Task5DatumV"
 - "Se"
 - !private "s26DefaultStringInterpolationV"
 - "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
+- !private "So11NSFormatterC"
 - "SH"
+- !private "10Foundation6LocaleV"
 - "SM"
 - "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
 - "Sk"
 - "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
 - "ST"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
@@ -185,6 +270,8 @@ depends-nominal:
 - "s24_DestructorSafeContainerP"
 - "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
@@ -195,6 +282,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
@@ -202,10 +290,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -214,10 +302,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "301937a593865175d7d3cafae53d4d4b"
+interface-hash: "2912d7474587bb18321d00e8f88702b8"

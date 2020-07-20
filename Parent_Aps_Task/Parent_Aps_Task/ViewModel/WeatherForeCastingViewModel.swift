@@ -41,7 +41,7 @@ class WeatherForeCastingViewModel
     }
     var CitySearchResult: WeatherForeCastingResponse? {
              didSet {
-              //  self.alertMessage = "Weather forecasting data seted for " + String (CitySearchResult?.city_name ?? "That City")
+
                 self.ReloadCityTable?()
              }
          }
@@ -50,22 +50,7 @@ class WeatherForeCastingViewModel
                MainActivityBtns = MainActivityBtns.filter { $0.cityName != DefaultCityName }
                 if(MainActivityBtns.count > 0)
                 {
-                   /* if(Interactor.GetDefaultCity() == MainActivityBtns[0])
-                    {
-                        MainActivityBtns[0] = DefaultCityName
-                       MainActivityBtns =  MainActivityBtns.removingDuplicates()
-                    }else if (!GetActivites().contains(DefaultCityName))
-                    {
-                        MainActivityBtns.insert(MainActivity(cityName: DefaultCityName, isDefault: true), at: 0)
-                    }
-                    else
-                    {
-                        if let index = MainActivityBtns.firstIndex(of: DefaultCityName)
-                        {
-                              MainActivityBtns.swapAt(0, index)
-                        }
-                      
-                    }*/
+          
                    
                     if(MainActivityBtns[0].isDefault)
                     {
@@ -74,7 +59,6 @@ class WeatherForeCastingViewModel
                     {
                          MainActivityBtns.insert(MainActivity(cityName: DefaultCityName, isDefault: true), at: 0)
                     }
-                    //MainActivityBtns =  MainActivityBtns.removingDuplicates()
                    
                 }else
                 {
@@ -84,7 +68,6 @@ class WeatherForeCastingViewModel
  
                 
                 ReDrawMainActivites?()
-                Interactor.SaveDefaultCity(CityName: DefaultCityName)
              }
          }
     var alertMessage: String? {

@@ -24,6 +24,30 @@ depends-member:
 - !private ["So15CALayerDelegateP", "SetAddOrRemoveBtnTitle"]
 - !private ["So15CALayerDelegateP", "SetCityName"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- ["So25CLLocationManagerDelegateP", "indexPathForPreferredFocusedView"]
+- ["So25CLLocationManagerDelegateP", "indexPathForPreferredFocusedViewInTableView"]
+- ["So25CLLocationManagerDelegateP", "numberOfSections"]
+- ["So25CLLocationManagerDelegateP", "numberOfSectionsInTableView"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidEndDecelerating"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidEndDragging"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidEndScrollingAnimation"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidEndZooming"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidScroll"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidScrollToTop"]
+- ["So25CLLocationManagerDelegateP", "scrollViewDidZoom"]
+- ["So25CLLocationManagerDelegateP", "scrollViewShouldScrollToTop"]
+- ["So25CLLocationManagerDelegateP", "scrollViewWillBeginDecelerating"]
+- ["So25CLLocationManagerDelegateP", "scrollViewWillBeginDragging"]
+- ["So25CLLocationManagerDelegateP", "scrollViewWillBeginZooming"]
+- ["So25CLLocationManagerDelegateP", "scrollViewWillEndDragging"]
+- ["So25CLLocationManagerDelegateP", "sectionIndexTitles"]
+- ["So25CLLocationManagerDelegateP", "sectionIndexTitlesForTableView"]
+- ["So25CLLocationManagerDelegateP", "tableView"]
+- ["So25CLLocationManagerDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
+- ["So25CLLocationManagerDelegateP", "viewForZooming"]
+- ["So25CLLocationManagerDelegateP", "viewForZoomingInScrollView"]
+- !private ["So25CLLocationManagerDelegateP", "viewModel"]
 - !private ["s7CVarArgP", "AddOrRemoveEvent"]
 - !private ["s7CVarArgP", "SetAddOrRemoveBtnTitle"]
 - !private ["s7CVarArgP", "SetCityName"]
@@ -821,6 +845,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
 depends-nominal:
 - !private "So15CALayerDelegateP"
+- "So25CLLocationManagerDelegateP"
 - "s7CVarArgP"
 - !private "15Parent_Aps_Task8CityCellC"
 - "s28CustomDebugStringConvertibleP"
@@ -875,6 +900,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
@@ -882,10 +908,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/developer/Desktop/Parent_Aps_Task/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/developer/Desktop/ParentApsTask/Parent_Aps_Task/DerivedData/Parent_Aps_Task/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -894,6 +920,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"

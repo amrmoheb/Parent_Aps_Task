@@ -31,8 +31,6 @@ class WeatherForecastingSearchVC: UIViewController,UISearchBarDelegate,CLLocatio
         super.viewDidLoad()
          InitSetup()
    
-      //  button.addConstraint(<#T##constraint: NSLayoutConstraint##NSLayoutConstraint#>)
-        // Do any additional setup after loading the view.
     }
     
    
